@@ -1,42 +1,48 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Galaxy Gallery</title>
     <link href="./css/styles.css" rel="stylesheet">
-
 </head>
+
 <body>
-    <header>
-        <h1>
-            Gallery of Dogs
-        </h1>
-    </header>
+
+    <aside>
+        Dogs are lovely.
+    </aside>
 
     <section>
-        <div class="img-gallery">
-            <div class="img-item"><img src="images/photo1.jpg"></div>
-            <div class="img-item"><img src="images/photo2.jpg"></div>
-            <div class="img-item"><img src="images/photo3.jpg"></div>
-            <div class="img-item"><img src="images/photo4.jpg"></div>
-            <div class="img-item"><img src="images/photo5.jpg"></div>
-            <div class="img-item"><img src="images/photo6.jpg"></div>
-            <div class="img-item"><img src="images/photo7.jpg"></div>
-            <div class="img-item"><img src="images/photo8.jpg"></div>
-            <div class="img-item"><img src="images/photo9.jpg"></div>
-            <div class="img-item"><img src="images/photo10.jpg"></div>
 
-            <div class="btns">
+
+        <div class="image-gallery">
+
+            <img class="gallery-item active-item" src="./images/photo1.jpg" alt="dog no 1">
+            <img class="gallery-item" src="./images/photo2.jpg" alt="dog no 2">
+            <img class="gallery-item" src="./images/photo3.jpg" alt="dog no 3">
+            <img class="gallery-item" src="./images/photo4.jpg" alt="dog no 4">
+            <img class="gallery-item" src="./images/photo5.jpg" alt="dog no 5">
+            <img class="gallery-item" src="./images/photo6.jpg" alt="dog no 6">
+            <img class="gallery-item" src="./images/photo7.jpg" alt="dog no 7">
+            <img class="gallery-item" src="./images/photo8.jpg" alt="dog no 8">
+            <img class="gallery-item" src="./images/photo9.jpg" alt="dog no 9">
+            <img class="gallery-item" src="./images/photo10.jpg" alt="dog no 10">
+
         </div>
-            <button>Previous</button>
-            <button>Next</button>
+
+        <div class="btns">
+            <button class="btn prev" disabled>Prev</button>
+            <button class="btn next">Next</button>
+        </div>
+
     </section>
 
-    <footer>&copy Barbara Engle 2021</footer>
-
-    <script src="js/app.js">
-    </script>
+    <script src="./js/app.js"></script>
 </body>
+
+
 </html>

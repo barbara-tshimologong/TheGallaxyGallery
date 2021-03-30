@@ -1,12 +1,51 @@
-html{
+* {
     box-sizing: border-box;
 }
 
-*,*::before, *::after {
-    box-sizing: inherit;
+.gallery-item {
+    display: none;
+    max-height: 600px;
+    width: 400px;
 }
-body {
-    padding:0;
-    margin: 0;
-    background-color:cadetblue;
+
+.active-item {
+    display: block;
+}
+
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.btn{
+    background-color:burlywood;
+    color: brown;
+    font-size: 1rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color:transparent;
+    cursor:pointer;
+}
+
+.prev{
+    margin-right:15px;
+}
+
+.btn:active{
+    
+    
+}
+
+.btn:disabled{
+    cursor: not-allowed;
+    background-color: wheat;
 }
